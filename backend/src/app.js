@@ -10,32 +10,32 @@ import dbConnect from "./dbs/init.mongodb.js";
 import initdb from "./dbs/import-mongo.js";
 
 dbConnect()
-  .then(async (mongooseInstance) => {
-    console.log('✅ Database Connected Successfully!');
+// .then(async (mongooseInstance) => {
+//   console.log('✅ Database Connected Successfully!');
 
-    const db = mongooseInstance.connection.db;
+//   const db = mongooseInstance.connection.db;
 
-    // 👉 Check if a known collection (e.g. "users") already exists
-    const collections = await db.listCollections().toArray();
-    const collectionNames = collections.map((c) => c.name);
+//   // 👉 Check if a known collection (e.g. "users") already exists
+//   const collections = await db.listCollections().toArray();
+//   const collectionNames = collections.map((c) => c.name);
 
-    if (collectionNames.includes('users')) {
-      console.log('⚠️ Database already initialized — skipping initdb()');
-      return;
-    }
+//   if (collectionNames.includes('users')) {
+//     console.log('⚠️ Database already initialized — skipping initdb()');
+//     return;
+//   }
 
-    console.log('🚀 Initializing database for the first time...');
-    await initdb();
-    console.log('✅ Database Initialized Successfully!');
-  })
-  .catch((err) => {
-    console.error('❌ Database connection or initialization failed:', err);
-  });
+//   console.log('🚀 Initializing database for the first time...');
+//   await initdb();
+//   console.log('✅ Database Initialized Successfully!');
+// })
+// .catch((err) => {
+//   console.error('❌ Database connection or initialization failed:', err);
+// });
 
 // Middleware
 app.use(
   cors({
-    origin: "*",
+    origin: ['https://student-management-frontend.vercel.app', 'http://localhost:5173'],
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
   })
