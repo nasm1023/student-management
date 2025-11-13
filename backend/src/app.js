@@ -56,7 +56,7 @@ app.use(async (req, res, next) => {
 // Middleware
 app.use(
   cors({
-    origin: ['https://student-management-kohl-nine.vercel.app/', 'http://localhost:5173'],
+    origin: ['https://student-management-kohl-nine.vercel.app', 'http://localhost:5173'],
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
   })
