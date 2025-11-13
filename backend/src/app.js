@@ -3,39 +3,60 @@ import bodyParser from "body-parser";
 import cors from "cors";
 import indexRoutes from "./routes/index.js";
 import morgan from 'morgan'
+
 // Khởi tạo app
 const app = express();
+
 // Kết nối database
 import dbConnect from "./dbs/init.mongodb.js";
-import initdb from "./dbs/import-mongo.js";
+import initdb from "./dbs/import-mongo.js"; // Giả sử initdb không cần thiết trong production
 
-dbConnect()
-// .then(async (mongooseInstance) => {
-//   console.log('✅ Database Connected Successfully!');
+// 💡 1. Tạo một biến để theo dõi trạng thái kết nối
+let isConnected = false;
 
-//   const db = mongooseInstance.connection.db;
+// 💡 2. Định nghĩa một hàm khởi tạo bất đồng bộ để đảm bảo kết nối
+async function setupDatabase() {
+  if (!isConnected) {
+    try {
+      await dbConnect(); // Đảm bảo await
+      isConnected = true;
+      console.log('✅ Database connection finalized.');
 
-//   // 👉 Check if a known collection (e.g. "users") already exists
-//   const collections = await db.listCollections().toArray();
-//   const collectionNames = collections.map((c) => c.name);
+      // Xử lý initdb nếu cần, nhưng cẩn thận với thời gian khởi động function
+      // if (process.env.NODE_ENV !== 'production') {
+      //     await initdb();
+      // }
 
-//   if (collectionNames.includes('users')) {
-//     console.log('⚠️ Database already initialized — skipping initdb()');
-//     return;
-//   }
+    } catch (err) {
+      console.error('❌ FATAL: Database setup failed.', err.message);
+      // Trong môi trường Vercel, ném lỗi ở đây sẽ làm sập function, 
+      // nhưng nó tốt hơn là để Mongoose ném lỗi giữa chừng.
+      throw err;
+    }
+  }
+}
 
-//   console.log('🚀 Initializing database for the first time...');
-//   await initdb();
-//   console.log('✅ Database Initialized Successfully!');
-// })
-// .catch((err) => {
-//   console.error('❌ Database connection or initialization failed:', err);
-// });
+// 💡 3. Middleware đảm bảo kết nối đã sẵn sàng cho mỗi request
+app.use(async (req, res, next) => {
+  // Gọi hàm setupDatabase() cho request đầu tiên của mỗi Function Instance
+  if (!isConnected) {
+    try {
+      await setupDatabase();
+    } catch (error) {
+      // Nếu kết nối lỗi, trả về 503 để báo service không sẵn sàng
+      return res.status(503).json({
+        message: "Service Unavailable: Database connection failed.",
+        error: error.message
+      });
+    }
+  }
+  next();
+});
 
 // Middleware
 app.use(
   cors({
-    origin: ['https://student-management-kohl-nine.vercel.app', 'http://localhost:5173'],
+    origin: ['https://student-management-kohl-nine.vercel.app/', 'http://localhost:5173'],
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
   })
@@ -43,11 +64,10 @@ app.use(
 app.use(morgan("tiny"));
 app.use(bodyParser.json())
 
-
-
 // Routes
-// app.use(jsonErrorHandler)
 app.use("/api/v1", indexRoutes);
+
+// Middleware xử lý lỗi (vẫn ở cuối)
 app.use((err, req, res, next) => {
   console.log("❌ Middleware error:", err.message);
 
@@ -57,4 +77,5 @@ app.use((err, req, res, next) => {
     stack: process.env.NODE_ENV === "development" ? err.stack : undefined,
   });
 });
+
 export default app;
