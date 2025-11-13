@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/JakePham23/TamLongHoi-Ex-TKPM#readme",
   "dependencies": {
+    "@vercel/functions": "^3.3.0",
     "axios": "^1.9.0",
     "bcrypto": "^5.5.2",
     "body-parser": "^1.20.3",

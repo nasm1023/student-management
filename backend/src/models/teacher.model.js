@@ -5,7 +5,7 @@ const COLLECTION_NAME = 'Teachers';
 const teacherSchema = new Schema(
   {
     teacherId: {
-      type: Number,
+      type: String,
       unique: true,
       required: true,
     },
@@ -36,37 +36,32 @@ const teacherSchema = new Schema(
       required: true,
     },
     role: {
-        type: String,
-        enum: [
-          'lecturer',               // Giảng viên
-          'teacher',                // Giáo viên
-          'faculty_academic_officer', // Giáo vụ khoa
-          'student_affairs_officer',  // Cán bộ công tác sinh viên
-          'academic_advisor',       // Giáo viên hướng dẫn
-          'teaching_assistant'      // Trợ giảng
-        ],
-        required: true
-    },      
-    academicDegree: {
       type: String,
-      enum: ['Bachelor', 'Master', 'PhD', 'Professor'],
-      required: true,
+      enum: [
+        'lecturer',               // Giảng viên
+        'teacher',                // Giáo viên
+        'faculty_academic_officer', // Giáo vụ khoa
+        'student_affairs_officer',  // Cán bộ công tác sinh viên
+        'academic_advisor',       // Giáo viên hướng dẫn
+        'teaching_assistant'      // Trợ giảng
+      ],
+      required: true
     },
     academicDegree: {
-        type: String,
-        enum: [
-          'Intermediate',
-          'College',
-          'Bachelor',
-          'Engineer',
-          'Master',
-          'PhD',
-          'DSc',
-          'AssociateProfessor',
-          'Professor'
-        ],
-        required: true,
-    },      
+      type: String,
+      enum: [
+        'Intermediate',
+        'College',
+        'Bachelor',
+        'Engineer',
+        'Master',
+        'PhD',
+        'DSc',
+        'AssociateProfessor',
+        'Professor'
+      ],
+      required: true,
+    },
     address: {
       houseNumber: String,
       street: String,

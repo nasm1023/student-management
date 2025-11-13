@@ -1,0 +1,90 @@
+[
+  {
+    "_id": "6801ba866287ccbef214bac1",
+    "teacherId": 1,
+    "fullname": "Nguyễn Hoài Bắc",
+    "dob": "1985-05-15",
+    "gender": true,
+    "department": "60c72b2f9b1e8c3a88c78b1a",
+    "email": "nguyenvana@example.com",
+    "phone": "0123456789",
+    "role": "lecturer",
+    "academicDegree": "Master",
+    "address": {
+      "houseNumber": "123",
+      "street": "Đường số 1",
+      "ward": "Phường 12",
+      "district": "Quận 1",
+      "city": "Hồ Chí Minh",
+      "country": "Việt Nam"
+    },
+    "identityDocument": {
+      "type": "CMND",
+      "idNumber": "123456789",
+      "issuedDate": "2010-01-01",
+      "issuedPlace": "Công an TP.HCM",
+      "expirationDate": "2030-01-01",
+      "hasChip": true,
+      "countryIssued": "Việt Nam"
+    },
+    "nationality": "Việt Nam"
+  },
+  {
+    "_id": "6801ba866287ccbef214bac2",
+    "teacherId": 2,
+    "fullname": "Dương Thị Hồng Cúc",
+    "dob": "1990-07-20",
+    "gender": false,
+    "department": "60c72b2f9b1e8c3a88c78b2b",
+    "email": "tranthib@example.com",
+    "phone": "0987654321",
+    "role": "faculty_academic_officer",
+    "academicDegree": "Bachelor",
+    "address": {
+      "houseNumber": "456",
+      "street": "Đường số 2",
+      "ward": "Phường 34",
+      "district": "Quận 2",
+      "city": "Hà Nội",
+      "country": "Việt Nam"
+    },
+    "identityDocument": {
+      "type": "Passport",
+      "idNumber": "A12345678",
+      "issuedDate": "2015-06-01",
+      "issuedPlace": "Sân bay Quốc tế Nội Bài",
+      "expirationDate": "2025-06-01",
+      "countryIssued": "Việt Nam"
+    },
+    "nationality": "Việt Nam"
+  },
+  {
+    "_id": "6801ba866287ccbef214bac3",
+    "teacherId": 3,
+    "fullname": "Dương Nguyễn Hồng Tân",
+    "dob": "1982-11-30",
+    "gender": true,
+    "department": "60c72b2f9b1e8c3a88c78b3c",
+    "email": "levanc@example.com",
+    "phone": "0912345678",
+    "role": "teaching_assistant",
+    "academicDegree": "PhD",
+    "address": {
+      "houseNumber": "789",
+      "street": "Đường số 3",
+      "ward": "Phường 56",
+      "district": "Quận 3",
+      "city": "Đà Nẵng",
+      "country": "Việt Nam"
+    },
+    "identityDocument": {
+      "type": "CCCD",
+      "idNumber": "987654321",
+      "issuedDate": "2018-03-15",
+      "issuedPlace": "Công an Đà Nẵng",
+      "expirationDate": "2038-03-15",
+      "hasChip": true
+    },
+    "nationality": "Việt Nam"
+  }
+]

@@ -1,0 +1,126 @@
+[{
+  "_id": "67d8ea7d7e02c451d88fa5da",
+  "departmentName": "Law",
+  "createdAt": "2025-03-18T03:37:33.595Z",
+  "updatedAt": "2025-06-17T07:16:21.231Z",
+  "__v": 0,
+  "dateOfEstablishment": "2004-08-14T00:00:00.000Z",
+  "headOfDepartment": "6801ba866287ccbef214bac1"
+},
+{
+  "_id": "67d8ea987e02c451d88fa5dc",
+  "departmentName": "Business English",
+  "createdAt": "2025-03-18T03:38:00.814Z",
+  "updatedAt": "2025-06-17T07:14:54.480Z",
+  "__v": 0,
+  "dateOfEstablishment": "2000-10-20T00:00:00.000Z",
+  "headOfDepartment": "6801ba866287ccbef214bac2"
+},
+{
+  "_id": "67d8eaa27e02c451d88fa5de",
+  "departmentName": "Russian",
+  "createdAt": "2025-03-18T03:38:10.483Z",
+  "updatedAt": "2025-06-17T07:17:31.322Z",
+  "__v": 0,
+  "dateOfEstablishment": "1999-01-01T00:00:00.000Z",
+  "headOfDepartment": "6801ba866287ccbef214bac2"
+},
+{
+  "_id": "67d8eaa77e02c451d88fa5e0",
+  "departmentName": "French",
+  "createdAt": "2025-03-18T03:38:15.672Z",
+  "updatedAt": "2025-06-17T07:16:05.636Z",
+  "__v": 0,
+  "dateOfEstablishment": "2005-12-14T00:00:00.000Z",
+  "headOfDepartment": "6801ba866287ccbef214bac2"
+},
+{
+  "_id": "67e0e2e95966e68b4e9a4b2c",
+  "departmentName": "Information Technology",
+  "createdAt": "2025-03-24T04:43:21.089Z",
+  "updatedAt": "2025-06-17T07:16:13.276Z",
+  "__v": 0,
+  "dateOfEstablishment": "2001-12-13T00:00:00.000Z",
+  "headOfDepartment": "6801ba866287ccbef214bac3"
+},
+{
+  "_id": "67e0e3225966e68b4e9a4b30",
+  "departmentName": "Biology",
+  "createdAt": "2025-03-24T04:44:18.942Z",
+  "updatedAt": "2025-06-17T07:15:15.683Z",
+  "__v": 0,
+  "headOfDepartment": "6801ba866287ccbef214bac3",
+  "dateOfEstablishment": "2001-10-25T00:00:00.000Z"
+},
+{
+  "_id": "67e0e35e5966e68b4e9a4b34",
+  "departmentName": "Chemistry",
+  "createdAt": "2025-03-24T04:45:18.142Z",
+  "updatedAt": "2025-06-17T07:15:26.211Z",
+  "__v": 0,
+  "dateOfEstablishment": "2002-05-15T00:00:00.000Z",
+  "headOfDepartment": "6801ba866287ccbef214bac1"
+},
+{
+  "_id": "67e268622ac402b833e930ba",
+  "departmentName": "Chinese",
+  "createdAt": "2025-03-25T08:25:06.879Z",
+  "updatedAt": "2025-06-17T07:15:45.420Z",
+  "__v": 0,
+  "dateOfEstablishment": "2001-09-13T17:00:00.000Z",
+  "headOfDepartment": "6801ba866287ccbef214bac1"
+},
+{
+  "_id": "67e268892ac402b833e930c6",
+  "departmentName": "Artificial Intelligence",
+  "createdAt": "2025-03-25T08:25:45.310Z",
+  "updatedAt": "2025-06-17T07:15:02.144Z",
+  "__v": 0,
+  "dateOfEstablishment": "2004-09-22T17:00:00.000Z",
+  "headOfDepartment": "6801ba866287ccbef214bac3"
+},
+{
+  "_id": "67e2697f2ac402b833e930ca",
+  "departmentName": "Computer Science",
+  "createdAt": "2025-03-25T08:29:51.180Z",
+  "updatedAt": "2025-06-17T07:15:56.182Z",
+  "__v": 0,
+  "dateOfEstablishment": "1999-09-14T00:00:00.000Z",
+  "headOfDepartment": "6801ba866287ccbef214bac3"
+},
+{
+  "_id": "67e269b32ac402b833e930ce",
+  "departmentName": "Psychology",
+  "createdAt": "2025-03-25T08:30:43.397Z",
+  "updatedAt": "2025-06-17T07:17:20.311Z",
+  "__v": 0,
+  "dateOfEstablishment": "2001-01-31T00:00:00.000Z",
+  "headOfDepartment": "6801ba866287ccbef214bac1"
+},
+{
+  "_id": "67e2b06bddf1ba5cc9994222",
+  "departmentName": "Bảo mật thông tin",
+  "createdAt": "2025-03-25T13:32:27.420Z",
+  "updatedAt": "2025-06-17T07:15:06.297Z",
+  "__v": 0,
+  "dateOfEstablishment": "2011-04-21T17:00:00.000Z",
+  "headOfDepartment": "6801ba866287ccbef214bac2"
+},
+{
+  "_id": "6801d8709f94379692f92075",
+  "departmentName": "Physic",
+  "createdAt": "2025-04-18T04:43:28.582Z",
+  "updatedAt": "2025-06-17T07:16:44.590Z",
+  "__v": 0,
+  "dateOfEstablishment": "2001-03-13T00:00:00.000Z",
+  "headOfDepartment": "6801ba866287ccbef214bac1"
+},
+{
+  "_id": "6801d8a49f94379692f9207c",
+  "departmentName": "Mathematic",
+  "createdAt": "2025-04-18T04:44:20.320Z",
+  "updatedAt": "2025-06-17T07:16:36.658Z",
+  "__v": 0,
+  "dateOfEstablishment": "2005-05-15T00:00:00.000Z",
+  "headOfDepartment": "6801ba866287ccbef214bac1"
+}]

@@ -1,0 +1,479 @@
+[{
+  "_id":"67d8ddb6790bd10fd2271129",
+  "studentId": 22120230,
+  "fullname": "Phạm Tấn Nghĩa",
+  "dob": "2004-09-23T00:00:00.000Z",
+  "gender": true,
+  "schoolYear": 2022,
+  "program": "CQ",
+  "department":"67e0e2e95966e68b4e9a4b2c",
+  "email": "jake230904@gmail.com",
+  "phone": "0392881328",
+  "studentStatus": "active",
+  "address": {
+    "houseNumber": "1423/1",
+    "street": "Bùi Văn Hoà",
+    "ward": "4",
+    "district": "Biên Hoà",
+    "city": "Đồng Nai",
+    "country": "Việt Nam"
+  },
+  "addressTemp": {
+    "houseNumber": "1423/1",
+    "street": "Bùi Văn Hoà",
+    "ward": "4",
+    "district": "Biên Hoà",
+    "city": "Đồng Nai",
+    "country": "Việt Nam"
+  },
+  "identityDocument": {
+    "type": "CMND",
+    "idNumber": "0123456789",
+    "issuedDate":"2020-01-01T00:00:00.000Z",
+    "issuedPlace": "Công an Xã Dương Minh Trạch"
+  },
+  "nationality": "Việt Nam",
+  "createdAt": "2025-03-18T02:43:02.572Z",
+  "updatedAt": "2025-03-25T04:15:39.798Z",
+  "__v": 0
+},
+{
+  "_id":"67de8799a6c35ceabfa964ef",
+  "studentId": 22120231,
+  "fullname": "Nguyễn Văn A",
+  "dob": "2004-08-24T00:00:00.000Z",
+  "gender": true,
+  "schoolYear": 2022,
+  "program": "CQ",
+  "department":"67d8eaa27e02c451d88fa5de",
+  "email": "jakeptnn@student.hcmus.edu.vn",
+  "phone": "0392881329",
+  "studentStatus": "graduated",
+  "address": {
+    "houseNumber": "1422/1",
+    "street": "Nguyễn Văn Trị",
+    "ward": "4",
+    "district": "Long Khánh",
+    "city": "Đồng Nai",
+    "country": "Việt Nam"
+  },
+  "addressTemp": {
+    "houseNumber": "1422/1",
+    "street": "Nguyễn Văn Trị",
+    "ward": "4",
+    "district": "Long Khánh",
+    "city": "Đồng Nai",
+    "country": "Việt Nam"
+  },
+  "identityDocument": {
+    "type": "CMND",
+    "idNumber": "0123456789",
+    "issuedDate":"2020-01-01T00:00:00.000Z",
+    "issuedPlace": "Công an Xã Dương Minh Trạch"
+  },
+  "nationality": "Việt Nam",
+  "createdAt": "2025-03-22T09:49:13.376Z",
+  "updatedAt": "2025-03-25T13:06:18.655Z",
+  "__v": 0
+},
+{
+  "_id":"67e0bb5c4cb701f890666ec3",
+  "studentId": 22120232,
+  "fullname": "Jake kiki hasa",
+  "dob": "2004-09-24T00:00:00.000Z",
+  "gender": false,
+  "schoolYear": 2022,
+  "program": "DTTX",
+  "department":"67e0e2e95966e68b4e9a4b2c",
+  "email": "jakejake2@student.hcmus.edu.vn",
+  "phone": "0392881355",
+  "studentStatus": "graduated",
+  "address": {
+    "houseNumber": "1242",
+    "street": "4",
+    "ward": "",
+    "district": "hcm",
+    "city": "",
+    "country": "Việt Nam"
+  },
+  "addressTemp": {
+    "houseNumber": "123123",
+    "street": "5",
+    "ward": "",
+    "district": "",
+    "city": "",
+    "country": "Việt Nam"
+  },
+  "identityDocument": {
+    "type": "CCCD",
+    "idNumber": "0101010101",
+    "issuedDate":"2022-05-21T00:00:00.000Z",
+    "issuedPlace": "CTCS",
+    "expirationDate":"2027-05-21T00:00:00.000Z"
+  },
+  "nationality": "Việt Nam",
+  "createdAt": "2025-03-24T01:54:36.124Z",
+  "updatedAt": "2025-04-18T04:27:49.505Z",
+  "__v": 0
+},
+{
+  "_id":"67e0bc5d4cb701f890666ed0",
+  "studentId": 22120233,
+  "fullname": "Pham",
+  "dob": "2004-02-23T00:00:00.000Z",
+  "gender": true,
+  "schoolYear": 2022,
+  "program": "DTTX",
+  "department":"67e0e2e95966e68b4e9a4b2c",
+  "email": "jake230906@student.hcmus.edu.vn",
+  "phone": "0392881321",
+  "studentStatus": "dropout",
+  "address": {
+    "houseNumber": "123123123",
+    "street": "123123",
+    "ward": "",
+    "district": "5",
+    "city": "",
+    "country": "Việt Nam"
+  },
+  "addressTemp": {
+    "houseNumber": "123123123",
+    "street": "5",
+    "ward": "",
+    "district": "",
+    "city": "",
+    "country": "Việt Nam"
+  },
+  "identityDocument": {
+    "type": "CCCD",
+    "idNumber": "0908070908",
+    "issuedDate":"2022-05-21T00:00:00.000Z",
+    "issuedPlace": "CSCST",
+    "expirationDate":"2027-05-22T00:00:00.000Z"
+  },
+  "nationality": "Việt Nam",
+  "createdAt": "2025-03-24T01:58:53.171Z",
+  "updatedAt": "2025-03-26T13:37:38.136Z",
+  "__v": 0
+},
+{
+  "_id":"67e2229d997c3038fa9fc70c",
+  "studentId": 123456,
+  "fullname": "Nguyen Van A",
+  "dob": "2000-05-20T00:00:00.000Z",
+  "gender": true,
+  "schoolYear": 2019,
+  "program": "CQ",
+  "department":"67e0e2e95966e68b4e9a4b2c",
+  "email": "a@student.hcmus.edu.vn",
+  "phone": "0987654321",
+  "studentStatus": "active",
+  "address": {
+    "houseNumber": "123",
+    "street": "Nguyen Trai",
+    "ward": "1",
+    "district": "Quan 1",
+    "city": "Ho Chi Minh",
+    "country": "Vietnam"
+  },
+  "addressTemp": {
+    "houseNumber": "",
+    "street": "",
+    "ward": "",
+    "district": "",
+    "city": "",
+    "country": "Việt Nam"
+  },
+  "identityDocument": {
+    "type": "CCCD",
+    "idNumber": "123456789",
+    "issuedDate":"2020-01-01T00:00:00.000Z",
+    "issuedPlace": "Ho Chi Minh",
+    "expirationDate":"2030-01-01T00:00:00.000Z"
+  },
+  "nationality": "Vietnam",
+  "__v": 0,
+  "createdAt": "2025-03-25T03:27:25.278Z",
+  "updatedAt": "2025-04-18T04:28:35.036Z"
+},
+{
+  "_id":"67e222e7997c3038fa9fc716",
+  "studentId": 1234567,
+  "fullname": "Nguyen Van A",
+  "dob": "2000-05-20T00:00:00.000Z",
+  "gender": true,
+  "schoolYear": 2019,
+  "program": "CQ",
+  "department":"67e0e2e95966e68b4e9a4b2c",
+  "email": "ab@student.hcmus.edu.vn",
+  "phone": "0987654320",
+  "studentStatus": "active",
+  "address": {
+    "houseNumber": "123",
+    "street": "Nguyen Trai",
+    "ward": "1",
+    "district": "Quan 1",
+    "city": "Ho Chi Minh",
+    "country": "Vietnam"
+  },
+  "addressTemp": {
+    "houseNumber": "",
+    "street": "",
+    "ward": "",
+    "district": "",
+    "city": "",
+    "country": "Việt Nam"
+  },
+  "identityDocument": {
+    "type": "CCCD",
+    "idNumber": "12345678910",
+    "issuedDate":"2020-01-01T00:00:00.000Z",
+    "issuedPlace": "Ho Chi Minh",
+    "expirationDate":"2030-01-01T00:00:00.000Z"
+  },
+  "nationality": "Vietnam",
+  "__v": 0,
+  "createdAt": "2025-03-25T03:28:39.121Z",
+  "updatedAt": "2025-03-26T13:47:14.379Z"
+},
+{
+  "_id":"67e224e0997c3038fa9fc72c",
+  "studentId": 12345678,
+  "fullname": "Nguyen Van A",
+  "dob": "2000-05-20T00:00:00.000Z",
+  "gender": true,
+  "schoolYear": 2020,
+  "program": "CQ",
+  "department":"67e0e3225966e68b4e9a4b30",
+  "email": "abcd@student.hcmus.edu.vn",
+  "phone": "0987654310",
+  "studentStatus": "active",
+  "address": {
+    "houseNumber": "123",
+    "street": "Nguyen Trai",
+    "ward": "1",
+    "district": "Quan 1",
+    "city": "Ho Chi Minh",
+    "country": "Vietnam"
+  },
+  "addressTemp": {
+    "houseNumber": "",
+    "street": "",
+    "ward": "",
+    "district": "",
+    "city": "",
+    "country": "Việt Nam"
+  },
+  "identityDocument": {
+    "type": "CCCD",
+    "idNumber": "12345678911",
+    "issuedDate":"2020-01-01T00:00:00.000Z",
+    "issuedPlace": "Ho Chi Minh",
+    "expirationDate":"2030-01-01T00:00:00.000Z"
+  },
+  "nationality": "Vietnam",
+  "__v": 0,
+  "createdAt": "2025-03-25T03:37:04.684Z",
+  "updatedAt": "2025-04-18T04:28:48.431Z"
+},
+{
+  "_id":"67e224e0997c3038fa9fc730",
+  "studentId": 12345610,
+  "fullname": "Nguyen Van B",
+  "dob": "2000-05-20T00:00:00.000Z",
+  "gender": true,
+  "schoolYear": 2013,
+  "program": "CQ",
+  "department":"67e0e2e95966e68b4e9a4b2c",
+  "email": "abc@student.hcmus.edu.vn",
+  "phone": "098765422",
+  "studentStatus": "active",
+  "address": {
+    "houseNumber": "123",
+    "street": "Nguyen Trai",
+    "ward": "1",
+    "district": "Quan 1",
+    "city": "Ho Chi Minh",
+    "country": "Vietnam"
+  },
+  "addressTemp": {
+    "houseNumber": "",
+    "street": "",
+    "ward": "",
+    "district": "",
+    "city": "",
+    "country": "Việt Nam"
+  },
+  "identityDocument": {
+    "type": "CCCD",
+    "idNumber": "1234567891345",
+    "issuedDate":"2020-01-01T00:00:00.000Z",
+    "issuedPlace": "Ho Chi Minh",
+    "expirationDate":"2030-01-01T00:00:00.000Z"
+  },
+  "nationality": "Vietnam",
+  "__v": 0,
+  "createdAt": "2025-03-25T03:37:04.699Z",
+  "updatedAt": "2025-03-25T04:16:19.687Z"
+},
+{
+  "_id":"67e226bb997c3038fa9fc74c",
+  "studentId": 12345679,
+  "fullname": "Nguyen Van A",
+  "dob": "2000-05-20T00:00:00.000Z",
+  "gender": true,
+  "schoolYear": 2019,
+  "program": "CQ",
+  "department":"67d8ea7d7e02c451d88fa5da",
+  "email": "abcde@student.hcmus.edu.vn",
+  "phone": "0987654355",
+  "studentStatus": "active",
+  "address": {
+    "houseNumber": "123",
+    "street": "Nguyen Trai",
+    "ward": "1",
+    "district": "Quan 1",
+    "city": "Ho Chi Minh",
+    "country": "Vietnam"
+  },
+  "addressTemp": {
+    "houseNumber": "",
+    "street": "",
+    "ward": "",
+    "district": "",
+    "city": "",
+    "country": ""
+  },
+  "identityDocument": {
+    "type": "CCCD",
+    "idNumber": "1234567",
+    "issuedDate":"2020-01-01T00:00:00.000Z",
+    "issuedPlace": "Ho Chi Minh",
+    "expirationDate":"2030-01-01T00:00:00.000Z"
+  },
+  "nationality": "Vietnam",
+  "__v": 0,
+  "createdAt": "2025-03-25T03:44:59.240Z",
+  "updatedAt": "2025-03-25T03:44:59.240Z"
+},
+{
+  "_id":"67e226bb997c3038fa9fc750",
+  "studentId": 12345611,
+  "fullname": "Nguyen Van B",
+  "dob": "2000-05-20T00:00:00.000Z",
+  "gender": false,
+  "schoolYear": 2019,
+  "program": "CQ",
+  "department":"67e0e2e95966e68b4e9a4b2c",
+  "email": "abce@student.hcmus.edu.vn",
+  "phone": "0987654223",
+  "studentStatus": "active",
+  "address": {
+    "houseNumber": "123",
+    "street": "Nguyen Trai",
+    "ward": "1",
+    "district": "Quan 1",
+    "city": "Ho Chi Minh",
+    "country": "Vietnam"
+  },
+  "addressTemp": {
+    "houseNumber": "",
+    "street": "",
+    "ward": "",
+    "district": "",
+    "city": "",
+    "country": ""
+  },
+  "identityDocument": {
+    "type": "CCCD",
+    "idNumber": "123456781",
+    "issuedDate":"2020-01-01T00:00:00.000Z",
+    "issuedPlace": "Ho Chi Minh",
+    "expirationDate":"2030-01-01T00:00:00.000Z"
+  },
+  "nationality": "Vietnam",
+  "__v": 0,
+  "createdAt": "2025-03-25T03:44:59.257Z",
+  "updatedAt": "2025-03-26T14:15:33.097Z"
+},
+{
+  "_id":"67e261ad24d956d317422835",
+  "studentId": 11111111,
+  "fullname": "Phạm Tấn Nghĩa",
+  "dob": "2022-02-22T00:00:00.000Z",
+  "gender": true,
+  "schoolYear": 2022,
+  "program": "CQ",
+  "department":"67d8eaa77e02c451d88fa5e0",
+  "email": "jake230904@student.hcmus.edu.vn",
+  "phone": "0392855555",
+  "studentStatus": "active",
+  "address": {
+    "houseNumber": "123",
+    "street": "123",
+    "ward": "",
+    "district": "123",
+    "city": "",
+    "country": "Việt Nam"
+  },
+  "addressTemp": {
+    "houseNumber": "123",
+    "street": "123",
+    "ward": "",
+    "district": "",
+    "city": "",
+    "country": "Việt Nam"
+  },
+  "identityDocument": {
+    "type": "CCCD",
+    "idNumber": "123123123222",
+    "issuedDate":"2022-02-22T00:00:00.000Z",
+    "issuedPlace": "CTCCS",
+    "expirationDate":"2022-02-22T00:00:00.000Z"
+  },
+  "nationality": "Việt Nam",
+  "__v": 0,
+  "createdAt": "2025-03-25T07:56:29.759Z",
+  "updatedAt": "2025-03-26T13:37:49.363Z"
+},
+{
+  "_id":"67e262d824d956d317426857",
+  "studentId": 11111112,
+  "fullname": "Phạm Tấn Nghĩa",
+  "dob": "2022-02-22T00:00:00.000Z",
+  "gender": false,
+  "schoolYear": 2021,
+  "program": "APCS",
+  "department":"67d8eaa77e02c451d88fa5e0",
+  "email": "jake230905@student.hcmus.edu.vn",
+  "phone": "0392855554",
+  "studentStatus": "suspended",
+  "address": {
+    "houseNumber": "123",
+    "street": "123",
+    "ward": "",
+    "district": "123",
+    "city": "",
+    "country": "Việt Nam"
+  },
+  "addressTemp": {
+    "houseNumber": "123",
+    "street": "123",
+    "ward": "",
+    "district": "",
+    "city": "",
+    "country": "Việt Nam"
+  },
+  "identityDocument": {
+    "type": "CCCD",
+    "idNumber": "123123123555",
+    "issuedDate":"2022-02-22T00:00:00.000Z",
+    "issuedPlace": "CTCCS",
+    "expirationDate":"2022-02-22T00:00:00.000Z"
+  },
+  "nationality": "Việt Nam",
+  "__v": 0,
+  "createdAt": "2025-03-25T08:01:28.254Z",
+  "updatedAt": "2025-03-26T13:17:47.856Z"
+  }
+]

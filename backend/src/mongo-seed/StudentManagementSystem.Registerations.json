@@ -1,0 +1,183 @@
+[{
+  "_id": "683992f8949487933a700a57",
+  "year": "2025-2026",
+  "semester": 1,
+  "courseId": "6801d57c12386794b1038aa4",
+  "teacherId": "6801ba866287ccbef214bac1",
+  "maxStudent": 120,
+  "schedule": {
+    "dayOfWeek": "TUE",
+    "lessonBegin": 6,
+    "lessonEnd": 8.5
+  },
+  "registrationStudent": [
+    {
+      "studentId": "67e224e0997c3038fa9fc72c",
+      "score": [
+        {
+          "processPoint": 10,
+          "midterm": 10,
+          "finalTerm": 10,
+          "finalScore": 10
+        }
+      ],
+      "status": "registered",
+      "_id": "68511c88560ed16a388ac2e3"
+    },
+    {
+      "studentId": "67e222e7997c3038fa9fc716",
+      "score": [
+        {
+          "processPoint": 5,
+          "midterm": 6,
+          "finalTerm": 6,
+          "finalScore": 5.8
+        }
+      ],
+      "status": "registered",
+      "_id": "68511c88560ed16a388ac2e4"
+    },
+    {
+      "studentId": "67e226bb997c3038fa9fc74c",
+      "score": [
+        {
+          "processPoint": 4,
+          "midterm": 3,
+          "finalTerm": 8,
+          "finalScore": 5.7
+        }
+      ],
+      "status": "registered",
+      "_id": "68511fa9560ed16a388ac3ca"
+    },
+    {
+      "studentId": "67e226bb997c3038fa9fc750",
+      "score": [
+        {
+          "processPoint": 4,
+          "midterm": 3,
+          "finalTerm": 5,
+          "finalScore": 3.7
+        }
+      ],
+      "status": "registered",
+      "_id": "68511fa9560ed16a388ac3cb"
+    },
+    {
+      "studentId": "67e261ad24d956d317422835",
+      "score": [
+        {
+          "processPoint": 5,
+          "midterm": 5,
+          "finalTerm": 5,
+          "finalScore": 5
+        }
+      ],
+      "status": "registered",
+      "_id": "68511fa9560ed16a388ac3cc"
+    },
+    {
+      "studentId": "67e262d824d956d317426857",
+      "score": [
+        {
+          "processPoint": 9,
+          "midterm": 8,
+          "finalTerm": 8,
+          "finalScore": 8.2
+        }
+      ],
+      "status": "registered",
+      "_id": "68511fa9560ed16a388ac3cd"
+    }
+  ],
+  "registrationDate": "2025-05-30T11:14:00.443Z",
+  "createdAt": "2025-05-30T11:14:00.446Z",
+  "updatedAt": "2025-06-18T05:31:15.508Z",
+  "__v": 0
+},
+{
+  "_id": "6839943bb449f40b2766baf9",
+  "year": "2025-2026",
+  "semester": 1,
+  "courseId": "6801d60712386794b1038ae2",
+  "teacherId": "6801ba866287ccbef214bac1",
+  "maxStudent": 120,
+  "schedule": {
+    "dayOfWeek": "TUE",
+    "lessonBegin": 8.5,
+    "lessonEnd": 10
+  },
+  "registrationStudent": [
+    {
+      "studentId": "67e261ad24d956d317422835",
+      "score": [
+        {
+          "processPoint": 9,
+          "midterm": 8,
+          "finalTerm": 9,
+          "finalScore": 8.7
+        }
+      ],
+      "status": "registered",
+      "_id": "685239ff6d19099c3630dcd9"
+    }
+  ],
+  "registrationDate": "2025-05-30T11:19:23.372Z",
+  "createdAt": "2025-05-30T11:19:23.376Z",
+  "updatedAt": "2025-06-18T05:31:19.170Z",
+  "__v": 0
+},
+{
+  "_id": "68524a1f5a78d0aba351a9b6",
+  "year": "2025-2026",
+  "semester": 2,
+  "courseId": "6801d64312386794b1038aec",
+  "teacherId": "6801ba866287ccbef214bac2",
+  "maxStudent": 120,
+  "schedule": {
+    "dayOfWeek": "WED",
+    "lessonBegin": 1,
+    "lessonEnd": 4
+  },
+  "registrationStudent": [],
+  "registrationDate": "2025-06-18T05:09:51.015Z",
+  "createdAt": "2025-06-18T05:09:51.017Z",
+  "updatedAt": "2025-06-18T05:09:51.017Z",
+  "__v": 0
+},
+{
+  "_id": "68524b715a78d0aba351ac6c",
+  "year": "2025-2026",
+  "semester": 2,
+  "courseId": "6801d68312386794b1038b00",
+  "teacherId": "6801ba866287ccbef214bac1",
+  "maxStudent": 120,
+  "schedule": {
+    "dayOfWeek": "FRI",
+    "lessonBegin": 6,
+    "lessonEnd": 7
+  },
+  "registrationStudent": [],
+  "registrationDate": "2025-06-18T05:15:29.121Z",
+  "createdAt": "2025-06-18T05:15:29.123Z",
+  "updatedAt": "2025-06-18T05:15:29.123Z",
+  "__v": 0
+},
+{
+  "_id": "68524c4e5a78d0aba351ac82",
+  "year": "2025-2026",
+  "semester": 2,
+  "courseId": "6801d5d512386794b1038ad8",
+  "teacherId": "6801ba866287ccbef214bac3",
+  "maxStudent": 120,
+  "schedule": {
+    "dayOfWeek": "WED",
+    "lessonBegin": 1,
+    "lessonEnd": 5
+  },
+  "registrationStudent": [],
+  "registrationDate": "2025-06-18T05:19:10.633Z",
+  "createdAt": "2025-06-18T05:19:10.635Z",
+  "updatedAt": "2025-06-18T05:19:10.635Z",
+  "__v": 0
+}]

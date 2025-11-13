@@ -1,7 +1,10 @@
+import dotenv from 'dotenv'
+dotenv.config()
+
 import winston from "winston";
 import "winston-mongodb";
 
-const connectString =  process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/StudentManagementSystem'
+const connectString =  process.env.MONGO_URI 
 
 // Cấu hình Winston
 const logger = winston.createLogger({
@@ -16,7 +19,6 @@ const logger = winston.createLogger({
     new winston.transports.MongoDB({
       db: connectString, // Chỉ để database
       collection: "logs", // Collection lưu log
-      options: { useUnifiedTopology: true },
       level: "info",
     })
   ],

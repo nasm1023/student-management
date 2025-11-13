@@ -11,4 +11,4 @@ export const STATUS_RULES = {
   dropout: [],
 };
 
-export const API_URL = 'http://localhost:3000/api/v1'
+export const API_URL = 'https://student-management-fmp1.vercel.app/api/v1'
